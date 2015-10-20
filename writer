@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+        <style>
+            #background{
+                position: fixed;
+            }
+            #title{
+                position: absolute;
+                height: 7%;
+                width: 14%;
+                left: 42%;
+                top: 2%;
+                z-index: -1;
+                margin: 0;
+                padding: 0;
+            }
+            #scrollybox{
+                    position: absolute;
+                    left:15%;     
+                    top:20%;
+                    /*overflow:scroll;*/
+                     height:90%; 
+                     width:45%;
+                     font-size: 105%;
+
+                }
+            #fictionlist{
+                position: absolute;
+                left:80%;     
+                top:20%;
+                    /*overflow:scroll;*/
+                height:520px; 
+                width:610px;
+                font-size: 105%;
+                padding: 0;
+                text-align: center;
+            }   
+            
+        </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+           
+        <!--background image-->    
+            <img id="background" src="img/homepage2.jpg">
+
+        <!--background images-->
+            <img id="title" src="img/writer.png">    
+            <img id="background" src="img/background7.jpg">
+        <div id="scrollybox">
+                <p>
+                    From George Eliot to Rabindranath Tagore, the writers I love were always more than writers. They were politicians and painters, doctors and philosophers, travelers and Hollywood sellouts. As a writer I've always tried to be many things so I can write about all of them. I'm not hauled up in some MFA program--I'm out in LA trying to make money writing about real things. Also known as being a journalist.
+
+                </p>
+                <p>
+                     So I've worked for political campaigns, game design studios, NPR and travel blogs. I've built websites (like this one) <a href="play" target="_blank">written plays,</a> <a href="dead_book_city" target="_blank">designed graphic novel websites</a> and <a href="illustrations/design/portfolio" target="_blank">book covers</a>. <a href="https://thisisrealthisisfiction.wordpress.com/2014/03/01/struck-by-lightning/" target="_blank">I've gotten struck by lightning</a> and <a href="http://rosechasm.tumblr.com/post/131191996356/the-story-of-michaela-cross-mental-breakdown" target="_blank">stuck in a psych ward,</a> and <a href="http://ireport.cnn.com/docs/DOC-1023053" target="_blank">got internationally famous on CNN.</a> I write made-up stories and true ones too, and right now <a href="what_I_write" target="_blank">I'm writing a novel that's a mixture of both.</a> I sometimes go by the name RoseChasm (short for my anagram-name Rosalie C. Chasm) on the internet. 
+                </p>
+                <p>
+                That's why I've called my site this is real this is fiction; real stories feed my fiction, and so I don't try to sepearate what I do from what I make. I'm trying to create one solid, tangled messy life out of these many different roles, and so far it's been fun.
+
+                So check out my authors, my stories, and my works in progress. 
+                </p>
+                
+            <div id="fictionlist">
+                <a href="fiction/DeadBookCity/index.html" target="_blank"><p>Graphic Web-Novel Thing</p></a>
+                <a href="http://ireport.cnn.com/docs/DOC-1023053" target="_blank"><p>CNN Article</p></a>
+                <a href="http://rosechasm.tumblr.com/post/131248377446/god-of-philadelphia" target="_blank"><p>Play</p></a>
+                <a href="https://thisisrealthisisfiction.wordpress.com/" target="_blank"><p>Blog</p></a>
+                <a href="short_stories" target="_blank"><p>Short Stories</p></a>
+                <a href="stories" target="_blank"><p>Travel Stories</p></a>
+                <a href="essays" target="_blank"><p>Essays</p></a>
+                <a href="what_I_write" target="_blank"><p>Novel</p></a>
+            </div>    
+
+    </div>
+        
+
+    </body>
+
+</html>

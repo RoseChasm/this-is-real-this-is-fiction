@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+    <style>
+    #text{
+        top: 15%;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        border-width: medium;
+        text-decoration: underline;
+    }
+    #India{
+        position: absolute;
+        height: 7%;
+        width: 3.1%;
+        left: 67%;
+        top: 50%;
+        z-index: 6;
+    }
+
+    #America{
+        position: absolute;
+        height: 5%;
+        width: 3.7%;
+        left: 13%;
+        top: 37%;
+        z-index: 6;
+        
+    }
+ #Belgium{
+        position: absolute;
+        height: 2%;
+        width: 1.7%;
+        left: 44%;
+        top: 32%;
+        z-index: 6;
+    }
+
+#UK{
+        position: absolute;
+        height: 3%;
+        width: 1.7%;
+        left: 43%;
+        top: 29%;
+        z-index: 6;
+    }
+#Oslo{
+        position: absolute;
+        height: 3%;
+        width: 1.8%;
+        left: 47%;
+        top: 26%;
+        z-index: 6;
+    }
+#Germany{
+        position: absolute;
+        height: 3%;
+        width: 1.9%;
+        left: 46%;
+        top: 31%;
+        z-index: 6;
+    }
+#Latvia{
+        position: absolute;
+        height: 3%;
+        width: 1.9%;
+        left: 52.8%;
+        top: 27%;
+        z-index: 6;
+    }
+#Turkey{
+        position: absolute;
+        height: 3%;
+        width: 1.9%;
+        left: 52%;
+        top: 38%;
+        z-index: 6;
+    }
+#Canada{
+        position: absolute;
+        height: 5%;
+        width: 1.9%;
+        left: 21%;
+        top: 30%;
+        z-index: 6;
+    }
+#Mexico{
+        position: absolute;
+        height: 5%;
+        width: 2.5%;
+        left: 11%;
+        top: 47%;
+        z-index: 6;
+    }
+
+#Belize{
+        position: absolute;
+        height: 3%;
+        width: 2.2%;
+        left: 17%;
+        top: 53%;
+        z-index: 6;
+    }
+
+    #background{
+        position: absolute;
+        width: 100%;
+    }
+    #background2{
+        position: absolute;
+        width: 100%;
+        top:100%;
+        z-index: -3;
+        overflow: hidden;
+    }
+    #background3{
+        position: absolute;
+        top:190%;
+        z-index: -3;
+        overflow: hidden;
+        width: 100%;
+        height: 120%;
+        
+    }
+    #background4{
+        position: absolute;
+        top:250%;
+        z-index: -3;
+        overflow: hidden;
+        width: 100%;
+        height: 120%;
+        
+    }
+
+    #title{
+        position: absolute;
+        height: 6%;
+        width: 27%;
+        left: 36%;
+        top: 2.5%;
+        z-index: -1;
+    }
+    #scrollybox{
+            position: absolute;
+            overflow: hidden;
+            left:15%;
+            top:110%;
+             height:200%; 
+             width:70%;
+             font-size: 105%;
+             font-family: "kingthings_trypewriter_2Rg";
+             z-index: 1;
+             text-align: center;
+
+        }
+    #scrollybox2{
+            position: absolute;
+            overflow: hidden;
+            left:15%;
+            top:175%;
+             height:195%; 
+             width:70%;
+             font-size: 105%;
+             font-family: "kingthings_trypewriter_2Rg";
+             z-index: 1;
+             text-align: center;
+
+        }
+   
+    
+    </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+           <div id="text"><p>Hover over an asterisk for a summary of my travels there.</p>
+                         <p>Click to read more.</p>
+                            </div>
+
+        
+        
+            <div id="scrollybox">
+                <div id="india">
+                    <p>India</p>
+                    <p> I've traveled to India twice now, and it's both my favorite and least favorite place to travel. Favorite, because India is incredibly complex, interesting, internationally important and exciting. And least favorite because I've never felt so afraid traveling as a woman--you can read more about that on CNN. I'm currently working on getting back to India and brushing up on my Hindi and my kickboxing skills to do so. Just kidding with the last one. Sort of.</p>
+                </div>
+                    <p>*</p>
+               <div id="america">
+                    <p>America</p>
+                    <p> I just finished a two month hitchhiking trip around the country, one of the best trips I've had. I took rides from all kinds of people, from taxidermists to crackheads, from ex-convicts to theologians. Read about the trip here.</p>
+                </div>
+                    <p>*</p>
+                <div id="belize"></div>
+                    <p>Belize</p>
+                    <p> I lived in a trailer in the middle of Belize (without paying) for ten days a couple years ago. Because the internet is the best thing ever.)</p>
+                </div>
+                    <p>*</p>
+            </div>
+            <div id="scrollybox2">
+                <div id="belgiumgermany">
+                    <p>Belgium, Germany</p>
+                    <p> I hitchhiked from Scotland to Munich as part of a charity event, so I really only passed through Belgium. But I figure what with the many times I've been their on layovers it kind of counts. Germany was pretty chill though, in a ghostly, rule-ridden, holocaust-appologizing, not-very-chill kind of way.</p>
+                </div>
+                    <p>*</p>
+
+                <div id="scotland">
+                    <p>Scotland</p>
+                    <p> Back in my naive youth (of five years ago) I enrolled in school in St Andrews, Scotland for International Relations/Modern History (read: drinking in ancient graveyards.) It was lovely, in a not-getting-very-educated-and-very-quickly-leaving kind of way. I wrote/illustrated a short story based on the experience, though, and made some lovely friends.</p>
+                </div>
+                    <p>*</p>
+
+                <div id="england">
+                    <p>England</p>
+                    <p> After realizing that I could travel to Europe for 180 bucks I lived in England for a month while working on my creative thesis for school (which was this.) I staid mostly in Cambridge and London, the latter of which was one of my favorite cities to be and the former was... Well, very clean. Let's just say I understand now why T.S. Eliot wrote that "Oxford is very pretty, but I don't like to be dead." (I know, I know, Oxford is a different place than Cambridge but come on, not really.)</p>
+                </div>
+                    <p>*</p>
+                <div id="oslo">
+                    <p>Norway</p>
+                    <p> I've spent a couple days in Oslo because the greatest little secret in the travel world is that you can get from New York to Oslo for $180. Yeah. Pass it on.</p>
+                </div>
+                    <p>*</p>
+
+                <div id="turkey">
+                    <p>Turkey</p>
+                    <p> After years of wanting to see the Hagia Sophia, I traveled to Turkey with one of my best friends for about three weeks. Pretty great way to escape the everlasting Chicago winter.</p>
+                </div>
+                    <p>*</p>
+
+                <div id="lavia">
+                    <p>Latvia</p>
+                    <p> When I got fed up with UChicago I took a break and found a random, isolated cabin in Latvia that I could stay in for free. So I did it. I spent New Years there, and survived both the cold and the wolves. I'm not kidding about the wolves. </p>
+                </div>
+                    <p>*</p>
+
+                <div id="mexico">
+                    <p>Mexico</p>
+                    <p> I lived in Mexico for three weeks because that's what happens when you go to an elementary school entirely run by lesbians. Hope I can get back there soon. </p>
+                </div>
+                    <p>*</p>
+
+                <div id="canada">
+                    <p>Canada</p>
+                    <p> I traveled to Montreal a few years ago, but was rejected at the Canadian border only a few months back. Since this time I have blackballed Canada until the Queen sends me an official appology. Still waiting. </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--background image-->
+            <img id="title" src="img/WhereI'veBeen.png">    
+          <img id="background" src="img/travel.jpg">
+          <img id="background2" src="img/blankpage.jpg">
+          <img id="background3" src="img/blankpage.jpg">
+          <img id="background4" src="img/blankpage.jpg">
+
+          <a href="travel#india"><div id="India" title="By far my favorite/least favorite place to travel."></div></a>
+          <a href="travel#america"><div id="America" title="I hitchhiked through America for two weeks. I met a lot of methheads."></div></a>
+          <a href="travel#belgiumgermany"><div id="Belgium" title="I hitchhiked through Belgium. I met a man I like to call 'Dutch Jesus'."></div></a>
+          <a href="travel#scotland"><div id="UK" title="I studied (read:drank) in Scotland for four months, and lived in England for a month."></div></a>
+          <a href="travel#scotland"><div id="UK" title="I studied (read:drank) in Scotland for four months, and lived in England for a month."></div></a>
+          <a href="travel#norway"><div id="Oslo" title="I slept in the Oslo airport for a few days. It still counts."></div></a>
+          <a href="travel#belgiumgermany"><div id="Germany" title="Germany was cool I guess. There were lots of rules and Holocaust museums."></div></a>
+          <a href="travel#latvia"><div id="Latvia" title="Staid in a stranger's cabin in the woods in Latvia. There were wolves."></div></a>
+          <a href="travel#turkey"><div id="Turkey" title="Travel to Turkey to see the Hagia Sophia. Worth it."></div></a>
+          <a href="travel#canada"><div id="Canada" title="Canada was clean, I guess."></div></a>
+           <a href="travel#mexico"><div id="Mexico" title="Lived there for three weeks when I was ten. Guess that's what happens when you go to Quaker school."></div></a>
+           <a href="travel#belize"><div id="Belize" title="Lived in a trailer in the middle of nowhere. Because, why not?"></div></a>
+          
+          <!--<img id="background2" src="img/blankpage.jpg">-->
+
+          
+        
+
+</div>
+        
+
+    </body>
+
+</html>

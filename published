@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+    <style>
+    u{
+        text-decoration: underline;
+    }
+    #background{
+        position: fixed;
+        z-index: -1;
+    }
+    #title{
+        position: absolute;
+        height: 7%;
+        width: 21%;
+        left: 39%;
+        top: 3%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+    #scrollybox{
+            position: absolute;
+            left:25%;
+            overflow: hidden;
+            top:20%;
+            /*overflow:scroll;*/
+             height:520px; 
+             width:610px;
+             font-size: 105%;
+             text-align: center;
+        }
+    #backpage{
+        position: absolute;
+        width: 55%;
+        left: 22%;
+        top: 12%;
+        z-index: 0;
+        opacity: .6;
+    }
+    </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+        <!--name-->
+            <img id="name" src="img/name.png">
+           
+        <!--background image-->    
+            <img id="background" src="img/homepage2.jpg">
+
+        <!--background image-->
+            <img id="title" src="img/published.png">    
+          <img id="background" src="img/background2.jpg">
+        <div id="scrollybox">
+        <p>
+            From CNN to the Times of India's travel blog, here's the link to my portfolio of nonfiction: 
+      </p>
+      <a href="https://michaelastonecross.contently.com/" target="_blank"><u><p>go to my portfolio</p></u>
+
+
+    
+</div>
+          
+
+    </body>
+
+</html>

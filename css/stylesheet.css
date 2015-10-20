@@ -1,0 +1,281 @@
+/*text*/
+h1, h2, h3, h4, h5, h6{
+    font-family: "kingthings_trypewriter_2Rg";
+}
+
+u{
+    text-decoration: underline;
+}
+/*links*/
+        a:hover{
+            color:#b67a62;
+            }
+
+/*background image*/
+
+        #background{
+            width: 100%;
+            height:100%;
+            position: absolute;
+            z-index: -2;
+            margin-right: 0;
+            margin:0px;
+            padding: none;
+            overflow: hidden;
+            top:0px;
+            left:0px;
+            right:-7px;
+
+        }
+/*name*/
+        html{
+            padding: none;
+            margin: none;
+            width: 100%;
+            height:100%;
+        }
+    /*page font*/
+        p{
+            font-family: "kingthings_trypewriter_2Rg";
+        }
+
+    /*navigation bar: tis terrifying*/
+        #dropdown li:hover{
+            background-color: #fffdfd;
+        }
+
+        #menu {
+          display: inline;
+          margin: 0;
+          padding: 15px 4px 17px 0;
+          list-style: none;
+          font-family: 'Amatic SC', cursive;
+          font-size: 150%;
+          margin: 5;
+            padding: 0;
+            display: inline;
+            border-style:solid;
+            border-width: medium;
+            border-left: 0px;
+            border-right: 0px;
+            z-index:5;
+            text-align: center;
+            background-color: #f6eeec;
+
+            
+
+        }
+
+
+        .header{
+            z-index:5;
+            position: absolute;
+            text-align: center;
+            left: 9%;
+            right: 9%;
+            top:8%;
+
+        }
+
+        #menu li {
+          width: 100px;
+          display: inline-block;
+          position: relative;
+        padding: 15px 
+        }
+
+        #menu li ul {
+          padding: 0;
+          margin: 0;
+          position: absolute;
+          top: 48px;
+          left: 0;
+          width: 100px;
+          visibility: hidden;
+
+        
+        }
+
+        #menu li ul li { 
+          padding-bottom: 0;
+          padding-top: 0;
+          display: block; 
+          color: black;
+          background-color: #f6eeec;
+
+
+        }
+
+        #menu li ul li a { 
+           color: black;
+
+
+
+        }
+
+
+        #menu li:hover ul {
+          display: block;
+          visibility: visible;
+           background-color: red;  
+        }
+
+
+ /*footer: tis terrifying*/
+
+
+        #footer {  
+          display: inline;
+          list-style: none;
+          font-family: 'Amatic SC', cursive;
+          font-size: 150%;
+          margin: 0;
+            padding: 0;
+            display: inline;
+            border-style:solid;
+            border-width: medium;
+            border-left: 0px;
+            border-right: 0px;
+            z-index:5;
+            text-align: center;
+            padding-top: 0;
+            padding-bottom: 0;
+            background-color: #dfc8c0;
+            
+        }
+
+
+        #footer li {
+          display: inline-block;
+          position: relative;
+        padding-left: 20px; 
+        
+        }
+
+         #footer{   
+          font-family: 'Amatic SC', cursive;
+          font-size: 150%;   
+            text-align: center;
+            position: fixed;
+            bottom:0;
+             width: 57%;
+            height: 5%;
+            padding: 0;
+            left: 18%;
+            top: 92%;
+            
+            
+            }
+
+    #listyfoot{
+        position: relative;
+        list-style-type: none;
+        margin-left: 20px;
+        padding-left: 20px;
+        display: inline;
+        
+      
+    }
+
+   
+/*title thing*/
+        #name{
+                position: absolute;
+                z-index: -1;
+                height: 90%;
+                width: 90%;
+                left: 5.5%;
+                top:3%;
+                
+            }
+
+        /*#thisisrealthisisfiction{
+            position: absolute;
+            z-index: -1;
+            height: 13%;
+            width: 55%
+            left:29%;
+        }*/
+    /*hidden images*/
+        #cat{
+            height: 300%;
+            width: 80%;
+            position: relative;
+            top: 50%;      /* position relative to the parent div (cat-div) */
+            right: 10%;
+            visibility: hidden;
+            
+        }
+
+        #cat:hover{
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        #thumb{
+            height: 200%;
+            width: 40%;
+            position: relative;
+            top: 50%;
+            left: 6%;
+            visibility: hidden
+        }
+
+        #thumb:hover{
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        #pencil{  
+        height: 250%;
+        width: 50%;  
+        position: relative;
+        top: 55%;
+        left: 16%;
+        visibility: hidden;
+        }
+
+        #pencil:hover{
+            visibility: hidden;
+            opacity: 0;
+        }
+    /*image links*/
+        #Me
+        {
+            width: 65%;
+            height: 10%;
+            top: 33%;
+            left: 18%;
+            position: absolute;
+            
+        }
+        #writer
+        {
+            width: 10%;
+            height: 10%;
+            top: 45%;
+            left: 31%;
+            position: absolute;           
+        }
+
+        #illustrator{
+            width: 16.5%;
+            height: 10%;
+            top: 45%;
+            left: 41.5%;
+            position: absolute;
+        }
+        #traveler{
+            width: 10.5%;
+            height: 10%;
+            top: 45%;
+            left: 58.5%;
+            position: absolute;
+        }
+        
+    /*making links not stupid*/
+        a{
+            text-decoration: none;
+            color: inherit;
+            outline: 0;
+        }

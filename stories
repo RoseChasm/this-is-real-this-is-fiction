@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+    <style>
+    #background{
+        position: fixed;
+        z-index: -1;
+    }
+    #title{
+        position: absolute;
+        height: 7%;
+        width: 14%;
+        left: 40%;
+        right: 42%;
+        top: 2%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+    #scrollybox2{
+            position: absolute;
+            left:25%;
+            right: 25%;
+            overflow: hidden;
+            top:20%;
+            /*overflow:scroll;*/
+             height:100%; 
+             width:610px;
+             font-size: 105%;
+             text-align: center;
+        }
+    #scrollybox{
+            position: absolute;
+            left:25%;
+            right:25%;
+            overflow: hidden;
+            top:49%;
+            /*overflow:scroll;*/
+             height:110%; 
+             width:610px;
+             font-size: 105%;
+             text-align: center;
+        }
+    #backpage{
+        position: absolute;
+        width: 55%;
+        left: 22%;
+        top: 12%;
+        z-index: 0;
+        opacity: .6;
+    }
+    </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+        <!--name-->
+            <img id="name" src="img/name.png">
+           
+       
+
+        <!--links-->
+           <a  id="home" href="home.html"></a>
+            <a  id="Me" href="me"></a>
+           <a  id="writer" href="writer"></a>
+           <a  id="illustrator" href="illustrator.html"></a>
+           <a  id="traveler" href="traveler.html"></a>
+         
+
+        <!--background image-->
+
+            <img id="title" src="img/stories.png">    
+          <img id="background" src="img/background6.jpg">
+          <img id="backpage" src="img/whitepaper.png">
+          <div id="scrollybox2">
+            <p>
+                <a href="https://mywanderingwomb.wordpress.com/2014/12/26/royal-country-superhouse-or-why-im-currently-sitting-in-the-riga-international-airport/" target="_blank">I've lived in an isolated cabin in the woods in Latvia,</a> a trailer in the middle of Belize, <a href="https://thisisrealthisisfiction.wordpress.com/2015/07/12/rooney-the-convict-my-first-lone-day-of-hitchhiking/" target="_blank">hitchhiked with drug dealers in Washington,</a> <a href="https://thisisrealthisisfiction.wordpress.com/2014/03/01/struck-by-lightning/" target="_blank">gotten struck by lightning in India,</a> <a href="https://thisisrealthisisfiction.wordpress.com/2014/09/05/the-terrible-thing-that-didnt-happen-last-night/" target="_blank">met a drunk Irishman in the middle of the night in Chicago and leant my bike to him,</a> <a href="https://thisisrealthisisfiction.wordpress.com/2015/07/03/tour-of-temple-square-the-women-of-the-mormon-church/" target="_blank">taken a Mormon propoganda tour in Salt Lake City,</a> <a href="https://thisisrealthisisfiction.wordpress.com/2015/05/27/the-zoo-with-no-animals-exploring-detroits-abandoned-zoo/" target="_blank">explored abandoned buildings in Detroit </a>and a whole lot of other things. Here are some of my favorite stories from my blogs/travels. 
+            </p>
+
+          </div>
+
+        <div id="scrollybox">
+            <a href="https://thisisrealthisisfiction.wordpress.com/2014/03/01/struck-by-lightning/" target="_blank"> <p> "Struck by Lightning" </p></a>
+               <p>*</p>
+              <a href="https://thisisrealthisisfiction.wordpress.com/2015/06/29/tim-the-weed-farmer-iowa-utah/" target="_blank"><p>"Tim the Weed Farmer: Iowa->Utah"</p>
+         
+            <p>*</p>
+            <a href="https://thisisrealthisisfiction.wordpress.com/2015/08/22/money-is-the-enemy-of-true-travel/" target="_blank"><p>"Money Is the Enemy of True Travel"</p></a>
+            
+
+            
+   <p>*</p>
+            
+
+            <a href="https://thisisrealthisisfiction.wordpress.com/2015/07/03/tour-of-temple-square-the-women-of-the-mormon-church/" target="_blank"><p>"Tour of Temple Square: The Women of the Mormon Church"</p>
+
+                <p>*</p>
+            
+            <a href="https://thisisrealthisisfiction.wordpress.com/2015/07/12/rooney-the-convict-my-first-lone-day-of-hitchhiking/"target="_blank"><p>"Rooney the Convict: My First Lone Day of Hitchhiking"</p></a>
+            <p>*</p>
+
+              <a href="https://mywanderingwomb.wordpress.com/2014/12/26/royal-country-superhouse-or-why-im-currently-sitting-in-the-riga-international-airport/" target="_blank"> <p> "Royal Country Superhouse: Why I'm in Latvia" </p></a>
+
+            <p>*</p>
+
+
+            <a href="https://thisisrealthisisfiction.wordpress.com/2015/05/27/the-zoo-with-no-animals-exploring-detroits-abandoned-zoo/" target="_blank"><p>"The Zoo with No Animals: Exploring Detroit's Abandoned Zoo"</p></a>
+            
+            <p>*</p>
+
+            <a href="https://thisisrealthisisfiction.wordpress.com/2014/03/01/mumbai-indias-greatest-boil/?preview=true&preview_id=111&preview_nonce=73114d7b0e&post_format=standard" target="_blank"><p>"Mumbai: India's Greatest Boil"</p></a>
+            
+
+            <p>*</p>
+           
+
+
+            <a href="https://thisisrealthisisfiction.wordpress.com/2014/09/05/the-terrible-thing-that-didnt-happen-last-night/" target="_blank"> <p> "The Terrible Thing that Didn't Happen Last Night" </p></a>
+
+            <p>*</p>
+
+            <a href="https://thisisrealthisisfiction.wordpress.com/2014/12/01/why-i-decided-to-suddenly-leave-the-country-again/" target="_blank"> <p>"Why I Suddenly Decided to Leave the Country (Again)"</p></a>
+
+            
+
+
+         
+
+          
+
+    </body>
+
+</html>

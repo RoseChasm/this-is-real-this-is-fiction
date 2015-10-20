@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+    <style>
+    #background{
+        position: fixed;
+        z-index: -1;
+    }
+    #title{
+        position: absolute;
+        height: 8%;
+        width: 16%;
+        left: 42%;
+        top: 1%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+    #scrollybox{
+            position: absolute;
+            left:36%;
+            overflow: hidden;
+            top:20%;
+            /*overflow:scroll;*/
+             height:470%; 
+             width:30%;
+             font-size: 105%;
+             text-align: center;
+        }
+    /*#backpage{
+        position: absolute;
+        width: 55%;
+        left: 22%;
+        top: 12%;
+        z-index: 0;
+        opacity: .6;
+    }
+    #aboutgeorgeeliot:hover{
+            visibility: hidden;
+            opacity: 0;
+        }*/
+
+    </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+        <!--name-->
+            <img id="name" src="img/name.png">
+           
+        <!--background image-->    
+            <img id="background" src="img/homepage2.jpg">
+        
+
+        <!--links-->
+           <a  id="home" href="home.html"></a>
+            <a  id="Me" href="me"></a>
+           <a  id="writer" href="writer"></a>
+           <a  id="illustrator" href="illustrator.html"></a>
+           <a  id="traveler" href="traveler.html"></a>
+     
+
+
+        <!--background image-->
+            <img id="title" src="img/authors.png">    
+            <img id="background" src="img/background4.jpg">
+            <img id="backpage" src="img/whitepaper.png">
+         <!--text-->
+                <div id="scrollybox">
+        <a href="https://en.wikipedia.org/wiki/George_Eliot"    target="_blank"><div id="georgeeliot"><p>
+            GEORGE ELIOT
+            </p></div>
+                <div id="aboutgeorgeeliot">
+                <p>(the bamfiest Victorian lady to ever have been a political journalist/theologian/German-philosopher-translater person who married a man twenty years younger at forty years old and wrote the magnum opus Middlemarch)</p>
+                </div>
+        </a>
+
+                <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore" target="_blank">
+         <p>
+            RABINDRANATH TAGORE
+         </p>
+             <p>(Indian politician, poet, and novelist who had a beard to rival Toslstoy's, and a philosophy to boot)</p>
+    </a>
+             <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Charles_Dickens" target="_blank">
+         <p>
+            CHARLES DICKENS
+        
+        </p>
+
+            <p>
+            (couldn't write a female character to save his life)</p>
+    </a>
+            
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Leo_Tolstoy" target="_blank">
+
+        <p>LEO TOLSTOY
+            </p>
+             <p>(who could write a killer forty-page passage about chopping wheat--I've read Anna K 5+ times)
+        </p>
+    </a>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Bohumil_Hrabal" target="_blank">
+            <p>
+            BOHUMIL HRABAL
+            
+        </p>
+        <p>(the greatest author you've never heard of--writes a mean rat war)</p>
+    </a>
+        <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/J._K._Rowling" target="_blank">
+        <p>
+            JK ROWLING
+        </p>
+            
+        <p>
+            <p>(considering how famous this bitch is, she really never gets enough credit for her writing/characters/moral system/humor)</p>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Jane_Austen" target="_blank">
+        <p>
+            JANE AUSTEN
+            
+        </p>
+        <p/>(jane could write a drawing room scene more exciting than a bloody, head-chopping battle. She too often gets relagated to the romcom crowd)</p>
+    </a>
+        <p>*</p>
+        <a href="https://en.wikipedia.org/wiki/Ralph_Ellison" target="_blank">
+        <p>
+            RALPH ELLISON
+            
+        </p>
+        <p/>(his writing is like an American headline that never needs to change)</p>
+    </a>
+        <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/A._S._Byatt" target="_blank">
+        <p>
+            A.S. BYATT
+            
+        </p>
+        <p>(the greatest Victorian writer who was ever born in the 20th century)</p>
+    </a>
+        <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/W._Somerset_Maugham" target="_blank">
+        <p>
+            SOMERSET MAUGHAM
+        </p>
+           
+        <p>
+             <p>(the least pretensious author with so much talent--Maugham's not too well-known these days for exactly that reason)</p>
+    </a>
+             <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Evelyn_Waugh" target="_blank">
+        <p>
+        EVELYN WAUGH    
+        </p>
+            <p>(the most pretentious author who gets away with it because he does it so well--Evelyn could write a homoerotic Catholic passage about architecture that'll get your tits hard anyday)</p>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Salman_Rushdie" target="_blank">
+        <p>
+            SALMAN RUSHDIE
+            
+        </p>
+            <p>(can write a modern Indian epic like no one else I know)</p>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Vladimir_Nabokov" target="_blank">
+        <p>
+            VLADIMIR NABOKOV
+            
+        </p>
+            <p>(cerebral and sensual, Vlad's books are a puzzle you can play over and over and never win) </p>
+             <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Haruki_Murakami" target="_blank">
+        <p>
+            HARUKI MURAKAMI
+        </p>
+            <p>(prose as clear and cool as water, Murakami takes you into a mood you never want to leave</p>
+    </a>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/William_Manchester" target="_blank">
+        <p>
+            WILLIAM MANCHESTER
+        </p>
+            <p>(his biography on Winston Churchill is killer, and reads like a novel)</p>
+    </a>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/P._G._Wodehouse" target="_blank">
+        <p>
+            PG WODEHOUSE
+        </p>
+            <p>(one of the greatest comedic writers, he never gets the props he deserves because he let humor be his genre when all anyone respects is tragedy)</p>
+    </a>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Bob_Dylan" target="_blank">
+        <p>
+            BOB DYLAN
+        </p>
+            <p>(Chronicles is beautiful, and all the more because it's full of lies)</p>
+    </a>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Patti_Smith" target="_blank">
+        <p>
+
+            PATTI SMITH
+        </p>
+            <p>(Patti's Just Kids taught me that you can be an artist if you work hard enough, have guys, and have a long love affair with a very gay man)</p>
+    </a>
+            <p>*</p>
+    <a href="https://en.wikipedia.org/wiki/Emily_Bront%C3%AB" target="_blank">
+        <p>
+            EMILY BRONTE
+        </p>
+            <p>(she just grabs you by the intestines. period.)</p>
+
+    
+</div>
+          
+
+    </body>
+
+</html>

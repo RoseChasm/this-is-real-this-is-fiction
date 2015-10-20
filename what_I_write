@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+    <style>
+    h1, h2, h3{
+        font-family: "kingthings_trypewriter_2Rg";
+    }
+    #explanation{
+        position: absolute;
+        width:100%;
+        text-align: center;
+        top: 15%;
+        font-size: 120%;
+    }
+    #background{
+        position: fixed;
+        z-index: -1;
+    }
+    #title{
+        position: absolute;
+        height: 8%;
+        width: 28%;
+        left: 36%;
+        top: 1%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+    #scrollybox{
+            position: absolute;
+            left:25%;
+            overflow: hidden;
+            top:25%;
+            /*overflow:scroll;*/
+             height:200%; 
+             width:50%;
+             font-size: 105%;
+             text-align: center;
+        }
+    #backpage{
+        position: absolute;
+        width: 55%;
+        left: 22%;
+        top: 12%;
+        z-index: 0;
+        opacity: .6;
+    }
+    </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+        <!--name-->
+            <img id="name" src="img/name.png">
+           
+        <!--background image-->    
+            <img id="background" src="img/homepage2.jpg">
+
+        
+        <!--background image-->
+            <img id="title" src="img/what_I_write.png">    
+          <img id="background" src="img/background4.jpg">
+          <img id="backpage" src="img/whitepaper.png">
+          <div id="explanation">
+            <p>I've written a helluva lot of fiction. But my biggest projects are below.</p>
+
+          </div>
+        <div id="scrollybox">
+            <div id="play">
+            
+                <h1>"God of Philadelphia"</h1>
+                <h2>(play)</h2>
+                <h3>"God of Philadelphia" is the story of a lawyer fighting to prove the innocence of a guilty man. When Philip K Dryden recieves the high-publicity case of an alleged sex criminal whose target was thirteen Catholic school girls, it's business as usual. Until, of course, he realizes he's fighting for this flasher's very life. With such high stakes Dryden knows he must play the Atticus, and turn a trial about 13 girls catching a flasher into a hard-working immigrant's fight for justice in a system that's been rigged.</h3>
+
+                <p>Based off a real trial, "God of Philadelphia" is the story of the impossibility of justice in the justice system, and the deception that is the search for truth, and the stories we tell ourselves are real. I'm working on getting this play produced in Philadelphia--you can read it now here.</p>
+                </p>
+        
+            </div>
+
+            <div id="webbook">
+            
+                <h1>"Dead Book City"</h1>
+                <h2>(graphic stories)</h2>
+                <h3>A boy finds a still-beating heart beneath an icy pond. A city of abandoned children conspire to burn down the city as they follow the whispers of the dead. Two drunk college kids head out into the mists of Scotland in search of a mythical forest. A woman makes a vow to wash her hair in the blood of her enemy.</h3>
+
+                <p>"Dead Book City" is an experiment in myth and medium, my attempt to use the web to bring stories to colorful, texture-filled life. You can see the project right on this website.</p>
+                </p>
+        
+            </div>
+
+            <div id="novel">
+            
+                <h1>"The Suicide Club"</h1>
+                <h2>(novel)</h2>
+                <h3>In every university lies a secret world: the whispering world of raped women who've been locked in psych wards, and suspended from school. During my time I was a part of this world at the University of Chicago, and my next novel takes place in this world, when a group of suicidal women seek to take their university back. And believe it or not, this story is funny.</h3>
+
+                <p>The Suicide Club is a story about pain, absurdity, revenge, and love. It's about how tragedy is comedy, and how the only person who can deprive you of power is yourself. Oh, and about lesbians. Lots of lesbians. </p>
+                <p>I'm in the midst of writing it, so stay posted.</p>
+        
+            </div>
+          
+
+    </body>
+
+</html>

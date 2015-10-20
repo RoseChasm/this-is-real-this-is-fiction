@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+    <style>
+    #meatwindow{
+        position: absolute;
+        top: 25%;
+        height: 50%;
+    }
+    u{
+        text-decoration: underline;
+    }
+    #background{
+        position: fixed;
+        z-index: -1;
+    }
+    #title{
+        position: absolute;
+        height: 7%;
+        width: 7%;
+        left: 45%;
+        top: 3%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+    #scrollybox{
+            position: absolute;
+            left:38%;
+            overflow: hidden;
+            top:20%;
+            /*overflow:scroll;*/
+             height:100%; 
+             width:60%;
+             font-size: 105%;
+             
+        }
+    #backpage{
+        position: absolute;
+        width: 55%;
+        left: 22%;
+        top: 12%;
+        z-index: 0;
+        opacity: .6;
+    }
+    </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+        
+           
+        <!--background image-->    
+            <img id="background" src="img/homepage2.jpg">
+
+        <!--background image-->
+            <img id="title" src="img/bio.png">    
+          <img id="background" src="img/background2.jpg">
+          <img id="meatwindow"src="img/meatwindow.jpg">
+        <div id="scrollybox">
+        <p>
+            *1992: started existing (great year for me)
+        </p>
+        <p>
+            *1993-2010: <a href="authors">read a lot of Victorian books</a>
+        </p>
+        <p>
+            *2010: <a href="fiction/DeadBookCity/quest-for-elzvar/index.html" target"_blank">drank carton wine in graveyards for four months (ie Studied International Relations/History in Scotland)</a>
+        </p>
+        <p>
+            *2011: transfered to UChicago <a href="http://www.newyorker.com/books/page-turner/chicago-where-fun-comes-to-die">(embraced unhappiness)</a>
+        </p>
+        <p>
+            *2012: wrote play <a href="play">God of Philadelphia"</a>
+        </p>
+        <p>
+            *2012: <a href="http://thelifeandtimesofanamericannomad.blogspot.com/2012_10_01_archive.html">went to India for second time</a>
+        </p>
+        <p>
+            *<a href="https://thisisrealthisisfiction.wordpress.com/2014/03/01/struck-by-lightning/">2012: got struck by lightning</a>
+        </p>
+
+        <p>
+            *<a href="http://rosechasm.tumblr.com/post/131191996356/the-story-of-michaela-cross-mental-breakdown">2013: got suspended from school for having a mental breakdown (though impeccable grades)</a>
+        </p>
+        <p>
+            <a href="http://ireport.cnn.com/docs/DOC-1023053">*2013: got internationally famous for writing well about said mental breakdown (CNN,</a> <a href="http://blogs.wsj.com/indiarealtime/tag/michaela-cross/">Wallstreet Journal,</a> CNN-India etc)
+        </p>
+        <p>
+            *<a href="dead_book_city">2013: Learned to code, illustrate and created <u>Dead Book City</u></a>
+        </p>
+        <p>
+            *2014-15: failed to drop out of University of Chicago (ie graduated with honors in South Asian Studies/Lit)
+        </p>
+        <p>
+            *<a href="https://thisisrealthisisfiction.wordpress.com/tag/hitchhiking/">2015: hitchhiked around the country</a>
+        </p>
+        <p>
+            *2015: moved to LA (got too tired to hitch out) 
+        </p>
+    
+</div>
+          
+
+    </body>
+
+</html>

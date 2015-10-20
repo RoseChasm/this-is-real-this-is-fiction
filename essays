@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+
+    <style>
+    #background{
+        position: fixed;
+        z-index: -1;
+    }
+    #title{
+        position: absolute;
+        height: 8%;
+        width: 15%;
+        left: 40%;
+        top: 1%;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+    #scrollybox{
+            position: absolute;
+            left:29%;
+            overflow: hidden;
+            top:20%;
+            /*overflow:scroll;*/
+             height:110%; 
+             width:40%;
+             font-size: 105%;
+             text-align: center;
+        }
+    #backpage{
+        position: absolute;
+        width: 55%;
+        left: 22%;
+        top: 12%;
+        z-index: 0;
+        opacity: .6;
+    }
+    </style>
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+        <!--name-->
+            <img id="name" src="img/name.png">
+           
+        <!--background image-->    
+            <img id="background" src="img/homepage2.jpg">
+       
+        <!--links-->
+           <a  id="home" href="home.html"></a>
+            <a  id="Me" href="me"></a>
+           <a  id="writer" href="writer"></a>
+           <a  id="illustrator" href="illustrator.html"></a>
+           <a  id="traveler" href="traveler.html"></a>
+         
+
+        <!--background image-->
+            <img id="title" src="img/essays.png">    
+          <img id="background" src="img/background1.jpg">
+          
+        <div id="scrollybox">
+        <p> From <a href="http://rosechasm.tumblr.com/post/131190850341/why-im-not-a-survivor" target="_blank">getting assaulted as a kid</a> <a href="http://rosechasm.tumblr.com/post/131191996356/the-story-of-michaela-cross-mental-breakdown" target="_blank">to getting locked in a psych ward in Chicago,</a> I'm not afraid to tell my stories. A lot of these focus on sexual assault because writing helps me own my experiences. <a href="http://ireport.cnn.com/docs/DOC-1023053" target="_blank">The India essay went viral on the CNN site,</a> and I published some of them in newspapers/magazines. <a href="stories" target="_blank">Head to the travel section </a>for my adventures if you're not one for darker stuff. 
+        </p>
+        <a href="http://rosechasm.tumblr.com/post/131190850341/why-im-not-a-survivor" target="_blank"> <p> "Why I'm Not a Survivor"</p></a>
+               <p>*</p>
+              <a href="http://ireport.cnn.com/docs/DOC-1023053" target="_blank"><p>"India: the Story You Never Wanted to Hear"</p>
+         
+            <p>*</p>
+            
+            <a href="http://mom.me/blog/20429-facing-campus-sexual-assault-college-student/" target="_blank"><p>"Walking on Eggshells"</p>
+         
+            <p>*</p>
+
+            <a href="https://thisisrealthisisfiction.wordpress.com/2014/03/01/about-the-new-delhi-rape/" target="_blank"><p>"About the New Delhi Rape"</p>
+         
+            <p>*</p>
+
+            <a href="http://rosechasm.tumblr.com/post/131191996356/the-story-of-michaela-cross-mental-breakdown" target="_blank"><p>"Escape from the University of Chicago: Michaela Cross' Mental Breakdown"</p>
+         
+      
+            
+
+            
+   <p>*</p>
+    
+</div>
+          
+
+    </body>
+
+</html>

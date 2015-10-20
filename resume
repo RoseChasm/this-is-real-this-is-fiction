@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="the website of writer Michaela Stone Cross/Rosalie C Chasm" content="">
+        <meta name="author" content="">
+        <!--fonts-->
+        <link rel="stylesheet" type="text/css" href="fonts/SearsFont/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="fonts/KingsFont/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/shake.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>    </head>
+    <style>
+    #background{
+        position: fixed;
+    }
+    #title{
+        position: absolute;
+        height: 7%;
+        width: 15%;
+        left: 43%;
+        top: 2%;
+        z-index: -1;
+    }
+    h1{
+        font-family: "kingthings_trypewriter_2Rg";
+        font-size: 120%;
+        text-decoration: underline;
+    }
+    h2{
+        font-family: "kingthings_trypewriter_2Rg";
+        font-size: 100%;
+    }
+   #text{
+    width: 100%;
+    height: 255%;
+    position: absolute;
+    overflow: hidden;
+    top: 20%;
+    text-align: center;
+    border: dotted;
+    width: 50%;
+    margin-right: 15%;
+    margin-left: 24%;
+    padding: 0px;
+
+   }
+
+
+    </style>
+
+
+
+</head>
+    <body>
+         <!--terrifying nav-->
+            <header class="header">
+                    <ul id="menu">
+                        <li id="sub-menu">
+                            <a href="home">home</a> 
+                        </li>
+                        <li id="sub-menu">
+                            about
+                            <ul id="dropdown">
+                                <li><a  id="bio" href="me">bio</a></li>     
+                                <li><a href="resume">resume</a></li>
+
+                            </ul>
+                        </li>
+                        <li id="sub-menu">
+                            fiction
+                            <ul id="dropdown">
+                                <li><a href="writer">what I write</a></li>     
+                                <li><a href="dead_book_city">Dead Book City</a></li>
+                                <li><a href="short_stories">short stories</a></li>
+                                <li><a href="play">play</a></li>
+                                <li><a href="authors">authors I love</a></li>
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            nonfiction
+                            <ul id="dropdown">
+                                <li><a href="essays">essays</a></li>     
+                                <li><a href="published">published stuff</a></li>
+                            </ul>
+                        </li>    <li id="sub-menu">
+                            illustrations
+                            <ul id="dropdown">
+                                <li><a href="illustrator">what I make</a></li>
+                                <li>
+                                    <a href="illustrations/design/portfolio">portfolio</a></li>     
+                            </ul>
+                        </li>   
+                        <li id="sub-menu">
+                            <a href="https://thisisrealthisisfiction.wordpress.com/">blog</a>
+                         <li id="sub-menu">
+                            travel
+                            <ul id="dropdown">
+                                <li><a href="travel">where I've been</a></li>     
+                                <li><a href="photos">pictures</a></li>
+                                <li><a href="stories">stories</a></li>
+
+                            </ul>
+                    </li>    
+                </ul>            
+               </header>
+
+        
+        <!--background image-->    
+            <img id="background" src="img/homepage2.jpg">       
+        <!--background image-->    
+            <img id="background" src="img/background7.jpg">
+       
+
+        <!--links-->
+           <a  id="home" href="home.html"></a>
+            <a  id="Me" href="me.html"></a>
+           <a  id="writer" href="writer.html"></a>
+           <a  id="illustrator" href="illustrator.html"></a>
+           <a  id="traveler" href="traveler.html"></a>
+    <div id="text">
+        <div id="education">
+          <h1>
+            Education 
+          </h1>
+          <h2>
+            <p>Graduated with Honors from the University of Chicago in June 2015</p>
+            <p>BA Concentrating in South Asian Studies and Literature</p>
+          </h2>
+      </div>
+          <div id="freelancewriting"  style="padding-top:20px;">
+          <h1> Freelance Writing Experience </h1>
+          <a href="http://www.happytrips.com/author/author-michaela-cross-479241859.cms" target="_blank"><p> * Works for the Times of India's travel blog writing travel articles (June 2015-now) </p></a>
+          <a href="http://ireport.cnn.com/docs/DOC-1023053" target="_blank">
+          <p> * Wrote CNN's most viewed iReport of all time that got over a million hits (2013) </p>
+          </a>
+          <a href="http://mom.me/blog/20429-facing-campus-sexual-assault-college-student/" target="_blank">
+          <p> * Wrote an article about campus sexual assault culture purchased by Mom.me (June, 2015) </p>
+          </a>
+          <a href="http://southsideweekly.com/literary-picture-show/#more-1709" target="_blank">
+          <p> * Interviewed artists for the Southside Weekly (September 2012-June 2015)</p>
+          </a>
+          <p> * Political analyst for Diskord Magazine (September 2012-June 2020)</p>
+          <a href="http://www.chicagoshadydealer.com/articles/253-school-declares-penile-deficiency-syndrome-awareness-week" target="_blank">
+          <p> * Comedy writer for <a style="text-decoration: underline">The Shady Dealer </a> (September 2012-June 2013)</style> 
+          </a>
+          </div>
+      <div id="computerexperience"  style="padding-top:20px;">
+
+      <h1>Computery Experience</h1>
+        <p>* Built/designed/illustrated this website (2015)</p>
+        <a href="http://www.vutranwriter.com/" target="_blank">
+        <p>* Set up and illustrated website for author Vu Tran (June 2015-July 2015)</p>
+        </a>
+        <a href="dead_book_city" target="_blank">
+        <p>* Built/wrote/illustrated entire graphic novel website thing (September 2020-June 2015)</p>
+    </a>
+    </div>
+    <div id="illustratingexperience"  style="padding-top:20px;">
+
+      <h1>Illustrating Experience</h1>
+        <p>* Commissions for Youtuber "JQNomad" </p>
+        <p>* Author Vu Tran's web logo</p>
+        <a href="dead_book_city"><p>* Graphic Web Novel "Dead Book City"</p></a>
+        <a href="illustrations/design/portfolio" target="_blank"><p>* Book jackets for authors David Cross and Richard Schofield </p></a>
+    </div>
+    <div id="realjobs"  style="padding-top:20px;">
+
+      <h1> Jobs/Internships Held (ie "Real Jobs")</h1>
+            <a href="https://lucian.uchicago.edu/blogs/gamechanger/portfolios/michaela-stone-cross/" target="_blank"><p>* Game Changers fellow working as a game designer for social justice (June 2020-June 2015)</p></a>
+            <p>* Book binder for the University of Chicago's Preservation (September 2013-June 2014)</p>
+            <p>* Intern for Politico during the National Republican Convention (August 25-August 31 2012)</p> 
+            <p>* Social media intern for NPR in Philadelphia (June 10--August 15 2012)</p>
+            <p>* Intern for State Representitive Christian Mitchell's election campaign in Chicago (September 30 2011-May 12 2012)</p> 
+            <p>* Receptionist for Elfant Wissahickon Realty (September 2009- May 2010)</p>
+    </div>
+    <div id="skills"  style="padding-top:20px;">
+      <h1> Skills </h1>
+            <p> * Front-end web development: html5, css3, javascript</p>
+            <p> * Expert in Photoshop (I use it for illustration and graphic design) </p>
+            <p> * Most reluctantly familiar with Wordpress</p>
+            <p> * Familiar with Final Cut and Pro Tool </p>
+            <p> * Languages: Spanish (decent) Hindi (beginner) </p>
+            <a href="https://thisisrealthisisfiction.wordpress.com/2014/03/01/struck-by-lightning/" target="_blank"><p> * Surviving being struck by lightning </p></a>
+            <p> * Traveling for basically nothing </p>
+    </div>
+
+    </div>
+      
+     <img id="title" src="img/resume.png">  
+
+
+    </body>
+
+</html>
